@@ -1,0 +1,6 @@
+*.jar
+chromedriver
+comics/
+config.ini
+pdf/
+LICENSE.chromedriver
