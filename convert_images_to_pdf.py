@@ -10,7 +10,7 @@ def convert_images_to_pdf(book_path):
     pdf_dir = os.path.join("pdf", book_path)
 
     if not os.path.isdir(pdf_dir):
-        os.mkdir(pdf_dir)
+        os.makedirs(pdf_dir)
 
     for i in range(len(chapter_list)):
         print(chapter_list[i])
